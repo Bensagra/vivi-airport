@@ -70,7 +70,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.tab.active, .tab:hover {
+.tab.active {
     background-color: white;
     color: black;
 }
