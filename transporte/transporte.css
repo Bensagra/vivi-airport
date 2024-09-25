@@ -1,0 +1,151 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    padding: 10px;
+    background-color: #F7717C;
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: black;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.transport-title {
+    width: 100%;
+    padding: 10px;
+    background-color: #130D31;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-text {
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.transport-option {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: #130D31;
+    border-radius: 50%;
+    border: 5px solid #F7717C;
+}
+
+.label {
+    position: absolute;
+    bottom: -50px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.taxi, .train {
+    width: 262px;
+    height: 80px;
+    background: rgba(19, 13, 49, 0.71);
+    border-radius: 20px;
+    border: 5px solid white;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.option-box {
+    width: 377px;
+    height: 115px;
+    background: rgba(19, 13, 49, 0.60);
+    border-radius: 20px;
+    border: 1px solid #130D31;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header, .transport-title {
+        padding: 5px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .title-text {
+        font-size: 40px;
+    }
+
+    .transport-option {
+        width: 150px;
+        height: 150px;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .label {
+        font-size: 30px;
+        bottom: -30px;
+    }
+
+    .taxi, .train {
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .option-box {
+        width: 250px;
+        height: 80px;
+        font-size: 20px;
+    }
+}
