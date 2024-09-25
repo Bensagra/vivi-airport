@@ -68,14 +68,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Control de tabs (salidas y llegadas)
     document.getElementById('salidas').addEventListener('click', function() {
-        document.getElementById('salidas').classList.add('active');
-        document.getElementById('llegadas').classList.remove('active');
+        document.getElementById('salidas').classList.remove('active');
+        document.getElementById('llegadas').classList.add('active');
         renderFlights(salidas); // Renderizar salidas
     });
 
     document.getElementById('llegadas').addEventListener('click', function() {
-        document.getElementById('llegadas').classList.add('active');
-        document.getElementById('salidas').classList.remove('active');
+        document.getElementById('llegadas').classList.remove('active');
+        document.getElementById('salidas').classList.add('active');
         renderFlights(llegadas); // Renderizar llegadas
     });
 });
@@ -121,14 +121,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Control de tabs (salidas y llegadas)
     document.getElementById('salidas').addEventListener('click', function() {
-        document.getElementById('salidas').classList.add('active');
-        document.getElementById('llegadas').classList.remove('active');
+        document.getElementById('salidas').classList.remove('active');
+        document.getElementById('llegadas').classList.add('active');
         renderFlights(salidas); // Renderizar salidas
     });
 
     document.getElementById('llegadas').addEventListener('click', function() {
-        document.getElementById('llegadas').classList.add('active');
-        document.getElementById('salidas').classList.remove('active');
+        document.getElementById('llegadas').classList.remove('active');
+        document.getElementById('salidas').classList.add('active');
         renderFlights(llegadas); // Renderizar llegadas
     });
 });
